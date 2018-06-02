@@ -1,0 +1,27 @@
+{
+  "name": "temp-fe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "docsite serve -m",
+    "ghpage": "docsite ghpage",
+    "push": "git add . && git commit -m 'update' && git push origin master && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoperyy/temp-fe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoperyy/temp-fe/issues"
+  },
+  "homepage": "https://github.com/hoperyy/temp-fe#readme",
+  "dependencies": {
+    "docsite-cli": "^1.0.3"
+  },
+  "devDependencies": {
+    "fs-extra": "^6.0.1"
+  }
+}
